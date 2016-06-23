@@ -20,7 +20,7 @@ def say_day(x=datetime.now()):
         return 'Saturday'
     elif x.weeday() == 6:
         return 'Sunday'
-        ```
+```
 
 ```python
 >>> say_day(datetime.now())

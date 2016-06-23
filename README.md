@@ -24,7 +24,7 @@ def say_day(x=datetime.now()):
 Like this:
 
 ```python
-say_day(datetime.now())
+>>> say_day(datetime.now())
 
 >>> Monday
 ```

@@ -21,7 +21,7 @@ def say_day(x=datetime.now()):
     elif x.weeday() == 6:
         return 'Sunday'
         ```
-Like this:
+
 ```python
 >>> say_day(datetime.now())
 

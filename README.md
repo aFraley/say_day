@@ -22,7 +22,6 @@ def say_day(x=datetime.now()):
         return 'Sunday'
         ```
 Like this:
-
 ```python
 >>> say_day(datetime.now())
 

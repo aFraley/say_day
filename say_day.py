@@ -1,0 +1,17 @@
+
+def say_day(x=datetime.now()):
+    """Return the day of the week as a string."""
+    if x.weekday() == 0:
+        return 'Monday'
+    elif x.weekday() == 1:
+        return 'Tuesday'
+    elif x.weekday() == 2:
+        return 'Wednesday'
+    elif x.weekday() == 3:
+        return 'Thursday'
+    elif x.weekday() == 4:
+        return 'Friday'
+    elif x.weekday() == 5:
+        return 'Saturday'
+    elif x.weeday() == 6:
+        return 'Sunday'

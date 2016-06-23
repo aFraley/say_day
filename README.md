@@ -25,5 +25,7 @@ Like this:
 
 ```python
 say_day(datetime.now())
-```
+
 >>> Monday
+```
+

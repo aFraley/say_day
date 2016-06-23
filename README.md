@@ -1,7 +1,10 @@
 # say_day
 Returns the day of the week from a Python 3.5 datetime objects as a string. ('Monday')
 
-```def say_day(x=datetime.now()):
+```python
+from datetime import datetime
+
+def say_day(x=datetime.now()):
     """Return the day of the week as a string."""
     if x.weekday() == 0:
         return 'Monday'
@@ -16,4 +19,11 @@ Returns the day of the week from a Python 3.5 datetime objects as a string. ('Mo
     elif x.weekday() == 5:
         return 'Saturday'
     elif x.weeday() == 6:
-        return 'Sunday'```
+        return 'Sunday'
+        ```
+Like this:
+
+```python
+say_day(datetime.now())
+```
+>>> Monday
